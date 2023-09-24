@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(36, 39, 36);
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            padding: 0 1rem ;
+            align-items: baseline; 
+            color: white;
+            background-color: rgba(16, 7, 7, 0.822);
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+
+        .image-container{
+            height: 10rem;
+        }        
+        .image-container img{
+            object-fit: cover;
+            height: 100%;
+            width:100%;
+        }
+
+        a:hover{
+            color: blue;
+        }
+
+        nav ul{
+            display: flex;
+            list-style: none; /* get rid of bullet points */
+            padding-left:0px;
+            gap: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        input{
+            width: 20rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="image-container">
+        <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt ="hero"/>
+        </div>
+        <nav>
+            <h1>MDN Web Docs</h1>
+            <input type="text" placeholder="Type here something">
+            <ul>
+                <a href=""><li>References</li></a>
+                <a href=""><li>Tutorial</li></a>
+                <a href=""><li>MDN Plus</li></a>
+            </ul>
+        </nav>
+    </header>
+    
+</body>
+</html>

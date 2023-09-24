@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Contact form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <table>
+        <tbody>
+            <tr>
+                <td><label for="name" id = "name">Name</label></td>
+                <td><input type="text" id = "name"></td>
+            </tr>
+            <tr>
+                <td><label for="email" id = "email">Email</label></td>
+                <td><input type="email" id = "email"></td>
+            </tr>
+            <tr>
+                <td><label for="phoneno" id = "phoneno">Phone</label></td>
+                <td><input type="tel" id = "phoneno" maxlength="10" required></td>
+            </tr>
+            <tr>
+                <td><label for="gender" id = "gender">Gender</label></td>
+                <td>
+                <input type="radio" name = "gender" id = "male" >Male 
+                <input type="radio" name = "gender" id = "female" >Female
+                </td>
+            </tr>
+            <tr>
+                <td><label for="profession">Profession</label></td>
+                <td><input list = "Professions" id ="profession">
+                <datalist id = "Professions">
+                    <option value = "Govt. Official" > </option>
+                    <option value = "Govt. Official" > </option>
+                    <option value = "Govt. Official" > </option>
+                    <option value = "Govt. Official" > </option>
+                </datalist>
+                </td>
+            </tr>
+
+            <tr style="vertical-align: top;">
+                <td><label for="about">Message</label></td>
+                <td><textarea name ="about" id="about" cols ="40" rows ="6"  maxlength="100"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" id = "tnc" name = "tnc">
+                    <label for="tnc" >I accept the terms and condition</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><button type ="reset">Reset</button></td>
+                <td style="text-align: right;"><button type ="submit">Submit</button></td>
+            </tr>
+
+        </tbody>
+        </table>
+    </body>
+</html>
