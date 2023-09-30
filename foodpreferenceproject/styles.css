@@ -1,0 +1,23 @@
+body{
+    font-family: sans-serif;
+}
+th ,td{
+    padding: 10px;
+}
+
+.nestedtabledata > td{
+   text-align: center;
+}
+
+label{
+    margin-right: 20px;
+}
+
+button{
+    margin: 2px;
+}
+
+.nestedtables{
+    border: 1px solid;
+    font-size: 0.7em;
+}
