@@ -1,0 +1,25 @@
+.parent{
+    background-color: grey;
+    padding: 20px;
+}
+
+.firstchild{
+    background-color: orange;
+    padding: 10px;
+    width: 400px;
+    /* position:sticky;
+    top:10px; */
+    
+}
+
+.secondchild{
+    background-color: yellow;
+    padding: 10px;
+    width: 400px;
+}
+
+.thirdchild{
+    background-color: blue;
+    padding: 10px;
+    width: 400px;
+}
