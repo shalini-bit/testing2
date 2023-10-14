@@ -1,0 +1,29 @@
+.container{
+    background-color: #e2e2e2a7;
+    padding: 14px;
+    margin : 1%;
+
+}
+
+@media all and (max-width:600px){
+    .container{
+        background-color: pink;
+
+    }
+}
+
+@media all and (max-width:800px) and (min-width:601px){
+    .container{
+        width:48%;
+        float: left;
+        background-color: blue;
+    }
+}
+
+@media all and (min-width:801px){
+    .container{
+        width:31%;
+        float:left;
+        background-color: blanchedalmond;
+    }
+}
