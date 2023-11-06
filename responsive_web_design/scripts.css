@@ -2,7 +2,7 @@
     background-color: #e2e2e2a7;
     padding: 14px;
     margin : 1%;
-
+    box-sizing: border-box;
 }
 
 @media all and (max-width:600px){
